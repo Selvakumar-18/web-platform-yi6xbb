@@ -1,0 +1,91 @@
+body {
+  /* background-color: lightgray; */
+  background: slategray;
+}
+
+.nav_bar {
+  /* background-color: aliceblue; */
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_bar_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 7rem;
+}
+.nav_bar_logo img {
+  width: 5rem;
+  height: 5.5rem;
+}
+.nav_bar_logo h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_bar_content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.nav_bar_content ul {
+  list-style-type: none;
+  display: flex;
+  list-style: none;
+  column-gap: 2rem;
+}
+
+.nav_bar_content ul li:hover {
+  color: white;
+  transition: 1s;
+}
+.nav_bar_content ul li {
+  cursor: pointer;
+}
+
+.center_part {
+  /* background-color: aliceblue; */
+  height: 39rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_part_head h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.center_part_content {
+  text-align: center;
+}
+
+.visit_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visit_button button {
+  background-color: rgba(211, 211, 211, 0.732);
+  border: white;
+  border-style: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.visit_button button:hover {
+  background-color: slategray;
+  border: 1px solid white;
+  transition: 1s;
+}
